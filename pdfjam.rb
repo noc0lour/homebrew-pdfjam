@@ -1,8 +1,8 @@
 class Pdfjam < Formula
-  homepage "https://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/firth/software/pdfjam"
-  url "https://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/firth/software/pdfjam/pdfjam_208.tgz"
-  sha256 "c731c598cfad076c985526ff89cbf34423a216101aa5e2d753a71de119ecc0f3"
-  version "2.08"
+  homepage "https://github.com/rrthomas/pdfjam"
+  url "https://github.com/rrthomas/pdfjam/archive/refs/tags/v3.03.tar.gz"
+  sha256 "bd27e44e75909cac2a53f0c8d0b253d9c95e496a181b7837f7919724dff78b69"
+  version "3.03"
 
   def install
     bin.install Dir["bin/*"]
